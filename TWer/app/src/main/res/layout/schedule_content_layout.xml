@@ -1,0 +1,168 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/riceYellow"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        >
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="42dp"
+            android:background="@color/separator"/>
+
+        <RelativeLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/content_time_block">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="08:00"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/content_start_time"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_expand_more"
+                android:id="@+id/content_edit_time"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="09:00"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/content_end_time"/>
+
+        </RelativeLayout>
+
+        <com.chauthai.swipereveallayout.SwipeRevealLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="90dp"
+            android:layout_alignParentBottom="true"
+            android:elevation="6dp"
+            app:mode="normal"
+            app:dragEdge="right"
+            android:id="@+id/place_swipe_reveal_layout">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="6dp"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:padding="18dp"
+                    android:src="@drawable/ic_duplicate"
+                    android:background="#F5DEB3"
+                    android:id="@+id/place_duplicate"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:padding="14dp"
+                    android:src="@drawable/ic_delete"
+                    android:background="#DEB887"
+                    android:id="@+id/place_delete"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/content_place"
+                app:cardCornerRadius="6dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/content_place_border"
+                    android:id="@+id/content_place_background"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="範例"
+                    android:textColor="@color/toolbarBackground"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/content_place_name"
+                    />
+
+            </android.support.v7.widget.CardView>
+        </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:visibility="gone"
+        android:id="@+id/content_transportation"
+        >
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="42dp"
+            android:background="@color/separator"/>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="18dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:id="@+id/content_transport_image"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="90dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:text="約"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:id="@+id/content_transport_time"/>
+
+    </RelativeLayout>
+</LinearLayout>

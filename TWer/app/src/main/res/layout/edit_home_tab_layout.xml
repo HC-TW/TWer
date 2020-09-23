@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:background="#F5DEB3"
+    >
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/separator"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_delete_black"
+        android:visibility="gone"
+        android:id="@+id/edit_home_delete_date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:id="@+id/edit_home_date_title"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_menu_black"
+        android:visibility="gone"
+        android:id="@+id/edit_home_move_date"
+        />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/separator"
+        />
+
+</RelativeLayout>

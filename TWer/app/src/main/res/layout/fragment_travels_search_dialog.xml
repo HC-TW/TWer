@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="6dp"
+    tools:context=".TravelsSearchDialogFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/travels_third_search_edittext">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="請輸入景點名稱"
+            android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:id="@+id/travels_third_search_text"
+            />
+
+        <Spinner
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:dropDownWidth="100dp"
+            android:layout_alignParentRight="true"
+            android:dropDownVerticalOffset="45dp"
+            android:paddingLeft="-70dp"
+            android:id="@+id/spinner"
+            />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/travels_third_circle_button"
+        android:src="@drawable/ic_search_white"
+        android:padding="7dp"
+        android:id="@+id/travels_third_search_confirm"/>
+
+</RelativeLayout>

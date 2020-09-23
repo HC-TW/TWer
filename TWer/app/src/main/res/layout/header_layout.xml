@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/riceYellow"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/profile"
+        android:visibility="gone"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/login_album"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="HC"
+            android:textColor="@color/toolbarBackground"
+            android:textSize="18sp"
+            android:id="@+id/login_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="twer.com"
+            android:textSize="18sp"
+            android:textColor="@color/toolbarBackground"
+            android:textStyle="italic"
+            android:id="@+id/login_email"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

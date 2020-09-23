@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="開車"
+        android:icon="@drawable/ic_car"
+        android:id="@+id/driving"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="走路"
+        android:icon="@drawable/ic_walk"
+        android:id="@+id/walking"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="公共運輸"
+        android:icon="@drawable/ic_train"
+        android:id="@+id/transit"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myschedule"
+            android:title="我的行程"/>
+
+        <item
+            android:id="@+id/nav_search"
+            android:title="搜尋景點"/>
+
+        <item
+            android:id="@+id/nav_collect"
+            android:title="收藏景點"/>
+
+        <item
+            android:id="@+id/nav_travels"
+            android:title="遊記"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="登出"/>
+
+    </group>
+
+
+
+
+</menu>

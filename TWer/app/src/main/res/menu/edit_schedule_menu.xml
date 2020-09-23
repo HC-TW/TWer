@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="edit"
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_edit"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:title="map"
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_map"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:title="選取"
+        android:id="@+id/action_pick"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:title="確定"
+        android:id="@+id/action_pick_confirm"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:title="確定"
+        android:id="@+id/action_time_confirm"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+</menu>

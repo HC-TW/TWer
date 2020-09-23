@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/riceYellow"
+        android:elevation="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/ic_origin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/normal_edittext"
+            android:gravity="center_vertical"
+            android:text="範例"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/origin_name"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_destination"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/normal_edittext"
+            android:gravity="center_vertical"
+            android:text="範例"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/destination_name"/>
+
+    </RelativeLayout>
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_map"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@color/toolbarBackground"
+        android:text="開始導航"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:id="@+id/action_navigation"/>
+
+</RelativeLayout>
