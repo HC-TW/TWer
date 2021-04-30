@@ -1,16 +1,14 @@
 # TWer
 ## Travel Planner Android APP
-
-The following are the features of my project:
+### The following are the features of my project:
 1. Search for Attractions
 2. Collect Attractions
 3. Trip Planning
 4. Travel Notes
 5. Account
-
 ## Project Requirements
 ### System Requirements
-Android Version 5.0以上。
+Android Version 5.0 or higher
 ### User Requirements
 1. Compatible on various mobile phones and tablets
 2. User-friendly interface
