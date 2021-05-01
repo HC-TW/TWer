@@ -7,57 +7,57 @@
 4. Travel Notes
 5. Account
 ## Project Requirements
-### System Requirements
-Android Version 5.0 or higher
-### User Requirements
-1. Compatible on various mobile phones and tablets
-2. User-friendly interface
-3. There is a prompt text to know what to enter
-4. The telephone and website in the attractions information can be directly called and linked
-5. The established itinerary can be browsed offline
-6. APP data can be backed up to the cloud
-### User Interface Requirements
-#### Symbolic icon
-- Assign an icon to each link as a preview of the content
-#### Menu and previous page
-- Each page must contain a menu icon or the previous page
-#### Scalable
-- There must be space for new features or new links
-#### Screen size
-- Should apply to all sizes
-### Functional Requirements
-#### Create itinerary
-1. Toolbar displays the name of the page, the return icon, and the creation text to indicate "Create"
-2. Show the prompt text in the first input field - "Please enter the name of the itinerary"
-3. Show the prompt text in the second input field - "Please select a travel date"
-4. The second input field is linked to the calendar for date selection
-#### My itinerary (home page)
-1. Toolbar displays the page name, menu icon and create itinerary icon
-2. The itinerary list shows the cover image, name, and date of the itinerary
-3. The cover image of the itinerary is randomly generated or the user changes it to a photo in his own gallery
-4. itinerary cover links to the page for editting the itinerary
-5. Sideslip itinerary — display two buttons for copying or deleting itinerary
-#### Search for attractions
-1. The Toolbar displays the page name and menu icon
-2. Show the prompt text in the input field - "Please enter the area or name of the attraction"
-3. Cancel button for clearing the input field
-4. When the input field changes, the corresponding search result will be generated
-5. The search result shows the name and address of the attraction
-6. The search result is linked to the attraction information page
-7. The maximum number of search results is five
-8. Only locations in Taiwan will appear
-#### Edit itinerary
-1. Toolbar displays the page name, return icon, edit mode, and map mode
-2. According to the set date, generating that number of pages for itinerary planning 
-3. Edit mode can change the itinerary cover picture, name, date and start and end time of the attraction, as well as add or delete the itinerary planning page
-4. There are two ways to add attractions, through favorite attractions or search attractions
-5. Attractions have been added link to the attraction information page
-6. Swipe the attraction to show two buttons - copy attraction icon and delete attraction icon
-7. Choose the mode of transportation between locations (walking, car, subway, bus), evaluate the time required and plan the route
-8. Traffic patterns between locations link to the route page
-9. The map mode indicates the relative position of the existing attractions on the map
-10. Marked attraction link to the attraction information page
-11. After users add attractions, if they don’t know how to arrange them, they can click the best sorting reference
+- ### System Requirements
+  - Android Version 5.0 or higher
+- ### User Requirements
+  1. Compatible on various mobile phones and tablets
+  2. User-friendly interface
+  3. There is a prompt text to know what to enter
+  4. The telephone and website in the attractions information can be directly called and linked
+  5. The established itinerary can be browsed offline
+  6. APP data can be backed up to the cloud
+- ### User Interface Requirements
+  - #### Symbolic icon
+    - Assign an icon to each link as a preview of the content
+  - #### Menu and previous page
+    - Each page must contain a menu icon or the previous page
+  - #### Scalable
+    - There must be space for new features or new links
+  - #### Screen size
+    - Should apply to all sizes
+- ### Functional Requirements
+  - #### Create itinerary
+    1. Toolbar displays the name of the page, the return icon, and the creation text to indicate "Create"
+    2. Show the prompt text in the first input field - "Please enter the name of the itinerary"
+    3. Show the prompt text in the second input field - "Please select a travel date"
+    4. The second input field is linked to the calendar for date selection
+  - #### My itinerary (home page)
+    1. Toolbar displays the page name, menu icon and create itinerary icon
+    2. The itinerary list shows the cover image, name, and date of the itinerary
+    3. The cover image of the itinerary is randomly generated or the user changes it to a photo in his own gallery
+    4. itinerary cover links to the page for editting the itinerary
+    5. Sideslip itinerary — display two buttons for copying or deleting itinerary
+  - #### Search for attractions
+    1. The Toolbar displays the page name and menu icon
+    2. Show the prompt text in the input field - "Please enter the area or name of the attraction"
+    3. Cancel button for clearing the input field
+    4. When the input field changes, the corresponding search result will be generated
+    5. The search result shows the name and address of the attraction
+    6. The search result is linked to the attraction information page
+    7. The maximum number of search results is five
+    8. Only locations in Taiwan will appear
+  - #### Edit itinerary
+    1. Toolbar displays the page name, return icon, edit mode, and map mode
+    2. According to the set date, generating that number of pages for itinerary planning 
+    3. Edit mode can change the itinerary cover picture, name, date and start and end time of the attraction, as well as add or delete the itinerary planning page
+    4. There are two ways to add attractions, through favorite attractions or search attractions
+    5. Attractions have been added link to the attraction information page
+    6. Swipe the attraction to show two buttons - copy attraction icon and delete attraction icon
+    7. Choose the mode of transportation between locations (walking, car, subway, bus), evaluate the time required and plan the route
+    8. Traffic patterns between locations link to the route page
+    9. The map mode indicates the relative position of the existing attractions on the map
+    10. Marked attraction link to the attraction information page
+    11. After users add attractions, if they don’t know how to arrange them, they can click the best sorting reference
 #### 收藏景點
 - Toolbar顯示頁面名稱與選單圖示。
 - 收藏特定景點，儲存在收藏列表中，以方便日後使用。
