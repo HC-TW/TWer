@@ -37,7 +37,7 @@ Android Version 5.0 or higher
 3. The cover image of the itinerary is randomly generated or the user changes it to a photo in his own gallery
 4. itinerary cover links to the page for editting the itinerary
 5. Sideslip itinerary — display two buttons for copying or deleting itinerary
-#### 搜尋景點
+#### Search for attractions
 1. The Toolbar displays the page name and menu icon
 2. Show the prompt text in the input field - "Please enter the area or name of the attraction"
 3. Cancel button for clearing the input field
@@ -46,7 +46,7 @@ Android Version 5.0 or higher
 6. The search result is linked to the attraction information page
 7. The maximum number of search results is five
 8. Only locations in Taiwan will appear
-#### 編輯行程
+#### Edit itinerary
 1. Toolbar displays the page name, return icon, edit mode, and map mode
 2. According to the set date, generating that number of pages for itinerary planning 
 3. Edit mode can change the itinerary cover picture, name, date and start and end time of the attraction, as well as add or delete the itinerary planning page
