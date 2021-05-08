@@ -58,42 +58,40 @@
     9. The map mode indicates the relative position of the existing attractions on the map
     10. Marked attraction link to the attraction information page
     11. After users add attractions, if they don’t know how to arrange them, they can click the best sorting reference
-#### 收藏景點
-- Toolbar顯示頁面名稱與選單圖示。
-- 收藏特定景點，儲存在收藏列表中，以方便日後使用。
-- 收藏列表中顯示景點的圖片與名稱。
-- 萬一沒有景點圖片，顯示內建隨機圖片。
-- 收藏景點連結景點資訊頁面。
-#### 景點資訊
-- Toolbar顯示景點名稱與返回圖示。
-- 分頁標題—「詳細資訊」、「地圖」、「評論」。
-- 「詳細資訊」顯示景點相片、名稱、地址、電話、網站、評分。
-- 如果是餐廳或是有門票，還會顯示價錢等級（200NTD為單位）。
-- 萬一沒有該項資料顯示「無此資料」。
-- 點擊收藏圖示，收藏或取消景點。
-- 點選相片可以瀏覽更多景點相片。
-- 「地圖」顯示景點周遭地圖。
-- 中心標註景點位置。
-- 左上角按鈕將地圖轉到北方。
-- 右上角按鈕定位現在位置。
-- 右下角按鈕縮放地圖大小。
-- 「評論」顯示景點評論作者、內容、時間（依時間最近開始排序）。
-#### 帳戶系統
-- 側滑選單上1/3部分設置登入按鈕，登入後改為使用者頭像與帳戶名稱。
-- 登入用戶的google帳號，取得用戶雲端硬碟權限。
-- 用戶的雲端硬碟自動同步現在APP的資料（行程內容、收藏景點）。
-- 雲端先下載到設備，存在一樣的檔案名稱詢問使用者是否覆寫到設備，不存在的新建檔案。
-- 設備備份資料到雲端，覆寫一樣的檔案名稱，不一樣的新建檔案。
-#### 遊記
-- 遊記首頁Toolbar顯示頁面名稱與選單圖示。
-- 首頁顯示縣市列表。
-- 縣市列表顯示縣市名稱、風景圖。
-- 縣市列表連結該區域遊記列表（第二頁）。
-- 第二頁Toolbar顯示縣市名稱與返回圖示。
-- 系統根據使用者選擇的縣市搜尋該縣市產生遊記列表（當年度）。
-- 遊記列表顯示遊記圖片、名稱、作者。
-- 遊記圖片隨機生成。
-- 遊記列表上限為二十個。
-- 遊記列表連結遊記網頁內容（第三頁）。
-- 第三頁Toolbar顯示遊記名稱與返回圖示。
-- 畫面下方有上一頁按鈕、重新整理和搜尋有關此遊記出現的景點（使用者自行輸入關鍵字，搜尋結果上限為十個）。
+  - #### Collect attractions
+    1. The Toolbar displays the page name and menu icon
+    2. Collect specific attractions and store them in the favorite list for future use
+    3. The pictures and names of the attractions are displayed in the favorite list
+    4. In case there is no attractions picture, the built-in random picture will be displayed
+    5. Collected attractions link to information pages
+  - #### Attractions Information
+    1. The Toolbar displays the name of the attraction and the return icon
+    2. Tab title - "Detailed Information", "Map", and "Comment"
+    3. "Detailed Information" shows the attraction photos, name, address, phone number, website, and rating
+        - If it is a restaurant or needs tickets, the price level will also be displayed
+        - In case there is no such information, "No such information" is displayed
+        - Click the favorite icon to collect or remove the attraction
+        - Tap a photo to browse more photos of attractions
+    4. "Map" displays a map of the surrounding attractions
+        - Mark the location of the attraction in the center
+        - The button in the upper left corner turns the map to the north
+        - The button in the upper right corner locates the current position
+        - The button at the bottom right corner zooms the map size.
+    5. "Comment" shows the author, content, and time of the attraction reviews (sorted by time)
+  - #### Account
+    1. The 1/3 part of the side-slide menu has a login button, which is changed to the user profile picture and account name after login
+    2. Log in to the user's google account to obtain the user's cloud drive permissions
+    3. The user's cloud drive automatically synchronizes the current APP data (itinerary content, favorite attractions)
+  - #### Travel notes
+    1. Toolbar on the homepage of Travel notes displays the page name and menu icon
+    2. The homepage shows the list of counties and cities
+    3. The list of counties and cities displays the names of counties and cities and their landscape pictures
+    4. The list of counties and cities is linked to the list of travel notes in the area (page 2)
+        - The Toolbar on the second page displays the name of the county and city and the return icon
+        - The system searches for the county and city selected by the user to generate a travel list (current year)
+        - The travel notes list shows the travel notes picture, name, and author
+        - Travels pictures are randomly generated
+        - The maximum number of travel notes is twenty
+    5. The travel notes list links to the contents of the travel notes webpage (page 3)
+        - The Toolbar on the third page displays the travel name and the return icon
+        - There are some buttons at the bottom of the screen, previous page, refreshing, and searching for the attractions related to this travel note (users enter keywords by themselves, the maximum number of search results is ten)
