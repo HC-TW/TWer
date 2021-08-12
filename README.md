@@ -1,11 +1,28 @@
 # TWer
 ## Travel Planner Android APP
-### The following are the features of my project:
+- ### The following are the features of my project:
 1. Search for Attractions
 2. Collect Attractions
 3. Trip Planning
 4. Travel Notes
 5. Account
+- ### Screenshots
+    - #### Menu
+      <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-141358.png" width="270" height="480">
+
+    - #### Attractions
+      <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-212858.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-212644.png" width="270" height="480">
+    
+      <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-213859.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-213947.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-213953.png" width="270" height="480">
+
+    - #### Schedule
+      <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-141338.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot%20(2019%E5%B9%B45%E6%9C%8810%E6%97%A5%20%E4%B8%8A%E5%8D%8810_35_43).png" width="270" height="480">
+
+      <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-213847.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-221653.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-221709.png" width="270" height="480">
+
+    - #### Travel Notes
+      <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-212618.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-210732.png" width="270" height="480">&nbsp;&nbsp;&nbsp;<img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-210922.png" width="270" height="480">
+
 ## Project Requirements
 - ### System Requirements
   - Android Version 5.0 or higher
