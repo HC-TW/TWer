@@ -1,11 +1,11 @@
 # TWer
 ## Travel Planner Android APP
 - ### The following are the features of my project:
-1. Search for Attractions
-2. Collect Attractions
-3. Trip Planning
-4. Travel Notes
-5. Account
+1. [Search for Attractions](#search-for-attractions)
+2. [Collect Attractions](#collect-attractions)
+3. [Trip Planning](#edit-itinerary)
+4. [Travel Notes](#travel-notes)
+5. [Account](#account)
 - ### Screenshots
     - #### Menu
       <img src="https://github.com/HC-TW/TWer/blob/master/Screenshots/Screenshot_20190507-141358.png" width="270" height="480">
